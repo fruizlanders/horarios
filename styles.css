@@ -1,0 +1,122 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; /* Para asegurarse de que el contenido ocupe al menos el alto de la ventana */
+}
+
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Estilos para ambas tablas */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos para el input */
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    text-align: center;
+    margin-bottom: 5px; /* Espacio entre los inputs */
+}
+
+/* Estilos para el botón */
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Estilos específicos para Tabla 1 */
+#tabla01 {
+    margin-top: 20px; /* Espacio entre la tabla y el título */
+}
+
+/* Estilos específicos para Tabla 2 */
+#tabla02 {
+    display: none; /* Oculta Tabla 2 inicialmente */
+}
+
+/* Estilos para la tabla 2 */
+#tabla02-container {
+    width: 100%;
+    max-width: 800px; /* Ajusta el ancho máximo si es necesario */
+    margin: 0 auto; /* Centra horizontalmente */
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+#tabla02 th, #tabla02 td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos para el botón */
+#procesarBtn {
+    margin-top: 10px;
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Estilos para tabla02 */
+#tabla02 {
+    width: 100%;
+    margin: 0;
+    display: none; /* Ocultar la tabla inicialmente */
+}
+
+#tabla02 thead {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+#tabla02 th {
+    padding: 10px;
+    text-align: center;
+}
+
+#tabla02 tr {
+    border: 1px solid #ddd;
+}
+
+#tabla02 td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
